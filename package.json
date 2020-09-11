@@ -1,0 +1,12 @@
+{
+  "name": "uni-util",
+  "version": "1.0.5",
+  "description": "uni-app tool library",
+  "main": "index.js",
+  "keywords": [
+    "uni-app",
+    "util"
+  ],
+  "author": "ponjs",
+  "license": "ISC"
+}
