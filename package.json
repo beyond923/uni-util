@@ -1,6 +1,6 @@
 {
   "name": "uni-util",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "uni-app tool library",
   "main": "index.js",
   "keywords": [
@@ -8,5 +8,8 @@
     "util"
   ],
   "author": "ponjs",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
 }

@@ -5,5 +5,6 @@ module.exports = {
   jsxBracketSameLine: false, // JSX标签闭合位置
   semi: true, // 使用分号
   singleQuote: true, // 使用单引号
-  tabWidth: 2 // tab缩进大小
+  tabWidth: 2, // tab缩进大小
+  printWidth: 100 // 行文字大小
 };
