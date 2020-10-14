@@ -1,19 +1,14 @@
-import vuexState from './lib/vuex';
+import * as uni from './lib/uni'
+import * as utils from './lib/utils'
+import router from './lib/router'
+import vuexState from './lib/vuex'
 
-import router from './lib/router';
-import * as uni from './lib/uni';
-import * as utils from './lib/utils';
-
-const util = {
-  router,
-  ...uni,
-  ...utils
-};
+const util = { ...uni, ...utils }
 
 const install = Vue => {
-  Vue.prototype.$util = util;
-};
+  Vue.prototype.$util = { ...util, router }
+}
 
-export { vuexState, util };
+export { router, util, vuexState }
 
-export default install;
+export default install
